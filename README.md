@@ -7,7 +7,7 @@
 * Dataset Link - https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset
 
 ### Note:
-* Please be aware that the size of the BERT model associated with this project exceeds the 25MB limit imposed by GitHub for individual files.
+* Please be aware that the size of the BERT model associated with this project exceeds the 25MB limit imposed by GitHub for individual files. If needed i will upload the models on my google drive
 * Before running the code, please follow the instructions below to ensure all necessary dependencies or packages are installed. Please note that you may need to restart the Jupyter Notebook kernel after downloading the dependencies.
    #### !pip install transformers nltk datasets numpy seaborn pandas scikit-learn matplotlib
    #### !pip install torch
