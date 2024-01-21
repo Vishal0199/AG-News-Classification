@@ -8,8 +8,8 @@
 
 Note:
 Before running the code, please follow the instructions below to ensure all necessary dependencies or packages are installed. Please note that you may need to restart the Jupyter Notebook kernel after downloading the dependencies.
-** !pip install transformers nltk datasets numpy seaborn pandas scikit-learn matplotlib **
-!pip install torch
-!pip install accelerate>=0.20.1
-!pip install mlxtend
-!pip install tensorflow
+#### !pip install transformers nltk datasets numpy seaborn pandas scikit-learn matplotlib **
+#### !pip install torch
+#### !pip install accelerate>=0.20.1
+#### !pip install mlxtend
+#### !pip install tensorflow
