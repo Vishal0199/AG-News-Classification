@@ -16,7 +16,7 @@ I have performed the following pre-processing steps on the dataset:
 * Excluded all stop words using the NLTK library, specifically in the context of n-grams.
 * Tokenized the text using the tokenizer provided by the pre-trained model.
   
-### Note:
+### Note - 1:
 * Please be aware that the size of the BERT model associated with this project exceeds the 25MB limit imposed by GitHub for individual files. If needed i will upload the models on my google drive
 * Before running the code, please follow the instructions below to ensure all necessary dependencies or packages are installed. Please note that you may need to restart the Jupyter Notebook kernel after downloading the dependencies.
    #### !pip install transformers nltk datasets numpy seaborn pandas scikit-learn matplotlib
@@ -24,3 +24,13 @@ I have performed the following pre-processing steps on the dataset:
    #### !pip install accelerate>=0.20.1
    #### !pip install mlxtend
    #### !pip install tensorflow
+
+## Note - 2:
+To run the FastAPI implementation of the LSTM model API stored in the "main.py" file within the "LSTM" folder, follow these steps:
+1. Install FastAPI:
+   !pip install fastapi
+2. Install Uvicorn with standard dependencies:
+   !pip install "uvicorn[standard]" or !pip install uvicorn[standard]
+3. Run the "main.py" file using Uvicorn:
+   uvicorn main:app --reload
+
