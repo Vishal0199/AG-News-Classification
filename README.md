@@ -27,10 +27,10 @@ I have performed the following pre-processing steps on the dataset:
 
 ## Note - 2:
 To run the FastAPI implementation of the LSTM model API stored in the "main.py" file within the "LSTM" folder, follow these steps:
-1. Install FastAPI:
+# 1. Install FastAPI:
    !pip install fastapi
-2. Install Uvicorn with standard dependencies:
+# 2. Install Uvicorn with standard dependencies:
    !pip install "uvicorn[standard]" or !pip install uvicorn[standard]
-3. Run the "main.py" file using Uvicorn:
+# 3. Run the "main.py" file using Uvicorn:
    uvicorn main:app --reload
 
